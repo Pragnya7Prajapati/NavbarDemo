@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ body {
+    min-height: 450px;
+    background-color: rgb(235, 235, 235);
+ } 
+
+.logo {
+    float: left;   
+    font-size: 30pt;
+    margin: 15px 10px;
+    color: white;
+}
+
+.mainbody {
+    height: fit-content;
+    /* border: 1px red solid; */
+    margin: 3px;
+    border-radius: 10px;
+    background-color: white
+}
+
+.menu {
+    float: right;
+}
+
+.lng-login {
+    border-radius: 10px 10px 0px 0px;
+    justify-content: space-around;  
+    width: 100%;
+    display: flex;
+    padding: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.lang-ddl {
+    width: 40%;
+}
+.login{
+    display: flex;
+    justify-content: end;
+    width:50%;
+    padding-right: 7% !important;
+}
+.m-l-2 {
+    margin-left: 3px;
+}
+
+.m-l-r-2 {
+    margin: 0px 2px 0px 2px !important;
+}
+
+span {
+    color: #cf0404;
+}
+
+.searchbox {
+    padding: 5px;
+}
+
+.search {
+    padding: 5px;
+    padding: 5px 5px 5px 28px;
+    text-align: left;
+    font-size: large;
+}
+
+.globe1 {
+    color: #cf0404;
+    margin-right: 15px 10px 5px 10px !important;
+    padding: 7px 7px 5px 5px;
+}
+
+.ddl {
+    padding-left: 15px;
+    margin-left: 20px;
+}
+
+.ddl>select {
+    border: none;
+    font-family: 'Times New Roman';
+    font-size: large;
+}
+
+.icon {
+    padding: 9px;
+    min-width: 30px;
+    color: #7e7f7f;
+}
+
+.login{
+    float: right;
+} 
+
+.input-icon i,
+.lang-ddl i {
+    position: absolute;
+}
+
+.ddl,
+.login {
+    padding: 4px;
+    display: flex;
+    font-size: larger;
+}
+
+.navbar{
+    background-color: #cf0404;    
+    overflow: hidden;
+    padding: 5px;
+}
+
+.navbar li {
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+    margin: 15px 10px;
+}
+
+.navbar ul {
+    overflow: hidden;
+    margin: auto;
+}
+
+li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    font-size: larger;
+}
+
+.searchbox {
+    float: left;
+    margin: 13px 10px;
+}
+
+.maincontent {
+    height: 600px;
+    border-radius: 0px 0px 10px 10px;
+}
